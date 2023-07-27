@@ -19,10 +19,13 @@ dependencies {
     implementation("io.micronaut:micronaut-jackson-databind")
     implementation("io.micronaut:micronaut-management")
     implementation("io.micronaut.cassandra:micronaut-cassandra")
+
     runtimeOnly("ch.qos.logback:logback-classic")
+
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("org.testcontainers:spock")
     testImplementation("org.testcontainers:testcontainers")
+    testImplementation('org.testcontainers:cassandra')
 }
 
 
