@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.example.cassandra
+testFramework: spock
+sourceLanguage: java
+buildTool: gradle
+features: [app-name, cassandra, gradle, http-client-test, jackson-databind, java, java-application, logback, management, micronaut-aot, micronaut-build, netty-server, properties, readme, shade, spock, testcontainers]
